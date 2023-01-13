@@ -1,0 +1,58 @@
+#root {
+    background-image: linear-gradient(to right, rgb(170, 210, 245), rgb(40, 157, 246), rgb(170, 210, 245));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(96, 96, 96);
+    font-size: 2rem;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+i {
+    font-size: 1.75rem;
+    cursor: pointer;
+}
+
+p {
+    width: 40px;
+}
+
+#timer-label i {
+    cursor: auto;
+}
+
+#wrapper {
+    width: 500px;
+}
+
+.label {
+    text-align: center;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 20px
+}
+
+.label h2 {
+    width: 100%;
+}
+
+.timer-control {
+    width: 100%;
+}
+
+.timer-control i {
+    margin: 15px;
+    font-size: 2.5rem;
+}
+
+#timer-label p {
+    font-size: 4rem;
+    width: 100%;
+}
